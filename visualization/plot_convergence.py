@@ -30,7 +30,7 @@ def plot_comparative_conv(iter_history_sync, iter_history_async, i, world_name: 
     
     plt.xlabel("Iteration")
     plt.ylabel("Manhattan Distance of Value Function")
-    plt.ylim([0,100])
+    plt.ylim([-5,100])
     plt.title(f"Comparison of Sync vs Async VI for {world_name}")
     plt.legend()
     
