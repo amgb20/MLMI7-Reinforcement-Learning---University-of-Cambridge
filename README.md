@@ -17,15 +17,14 @@ The project is run in a Jupyter Notebook environment. The main file is `main.ipy
 You can plot the following:
 
 **Value function and policy**:
-
 ![Value function and policy](images_1.png)
 
 **Convergence**
 
-![Convergence](./results/images/QUESTION%20B2/W&B_SARSA_implementation_B2_grid_search_CONV.png)
+![Convergence](/results/images/QUESTION%20B2/W&B_SARSA_implementation_B2_grid_search_CONV.png)
 
 **Reward per episode**
 
-![Reward per episode](./results/images/QUESTION%20D/Cliff%20World_Sarsa_vs_Q_learning_cum_reward_plot_0.3.png)
+![Reward per episode](/results/images/QUESTION%20D/Cliff%20World_Sarsa_vs_Q_learning_cum_reward_plot_0.3.png)
 
 
