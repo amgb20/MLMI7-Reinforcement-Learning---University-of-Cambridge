@@ -17,7 +17,7 @@ The project is run in a Jupyter Notebook environment. The main file is `main.ipy
 You can plot the following:
 
 **Value function and policy**:
-![Value function and policy](images_1.png)
+![Value function and policy](readme_images/images_1.png)
 
 **Convergence**
 
