@@ -52,7 +52,7 @@ def plot_sarsa_convergence(iter_snap, world_name: str, question: str, task: str,
     plt.grid()
     if save:
         save_fig(plt, question, world_name, task)
-    plt.show()
+    # plt.show()
     
     return x, y
 

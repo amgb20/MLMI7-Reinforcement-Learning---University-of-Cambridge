@@ -45,8 +45,8 @@ def train_BO_sweep_Sarsa():
         Q, iter_history_sarsa, V, pi, rewards, iter_episdode = sarsa.on_policy_sarsa()
 
         # Generate Plots and Extract Data
-        reward_x, reward_y = plot_reward(rewards, model.world.world_name, QUESTION_B2, TASK_B2_BO, show=show, save=False)
-        plot_vp(model, V, pi, model.world.world_name, QUESTION_B2, TASK_B2_BO, show=show, save=False)
+        reward_x, reward_y = plot_reward(rewards, model.world.world_name, QUESTION_B2, TASK_B2_BO, show= show, save=False)
+        plot_vp(model, V, pi, model.world.world_name, QUESTION_B2,plot_title="BO", task= TASK_B2_BO, show= show, save=False)
         conv_x, conv_y = plot_sarsa_convergence(iter_episdode, model.world.world_name, QUESTION_B2, TASK_B2_BO, save=False)
 
         # Log Key Metrics to W&B

@@ -15,7 +15,7 @@ def plot_reward(rewards: np.array, world_name: str, question: str, task: str, sh
     plt.title(f"Episode Rewards for {world_name}")
     if save:
         save_fig(plt, question, world_name, task)
-    if show:
+    if show == True:
         plt.show(show)
         
     return x, y

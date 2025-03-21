@@ -113,7 +113,7 @@ def plot_vp(
     """
     if save:
         save_fig(plt, QUESTION, world_name, task)
-    if show:
+    if show == True:
         fig.show()
 
     return fig, ax
